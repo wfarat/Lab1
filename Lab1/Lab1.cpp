@@ -10,7 +10,7 @@ int main()
   cout << "Wpisz liczbe:";
   cin >> n;
   while (n > 1) {
-    n = floor(n / 2);
+    n = n / 2;
     odp++;
   }
   cout << odp;
